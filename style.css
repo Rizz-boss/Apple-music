@@ -1,0 +1,762 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Apple Color Emoji,SF Pro,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.container{
+    display: flex;
+    
+}
+.container-one{
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: white;
+    height: 600px;
+    width: 240px;
+    position: fixed;
+    border-right: 1px solid rgb(177, 179, 177);
+}
+.apple_music_logo{
+    
+    height: 22px;
+}
+.box{
+    width: 205px;
+    height: 12px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-top: 30px;
+    border: 1px solid rgb(172, 172, 172);
+}
+.box input{
+    flex: 1;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.search_icon{
+    width: 12px;
+}
+.nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    border-left: 1px solid rgb(177, 179, 177);
+    padding-bottom: 38px;
+    padding-right: 70px;
+}
+.container-two{
+    background-color: white;
+    width: 1000px;
+    height: ;
+    padding-left: 260px;
+    padding-right: 10px;  
+}
+.listen-now{
+    display: flex;
+    padding-top: 25px;
+}
+.now{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.listen{
+    height: 17px;
+}
+.menu-bar-icon {
+    display: flex;
+    padding-top: 15px;
+}
+.menu {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.menu-bar{
+    height: 17px;
+    padding-left: 4px;
+}
+.radio-icon {
+    display: flex;
+    padding-top: 15px;
+}
+
+.radio {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.radio-logo {
+    height: 20px;
+    padding-left: 2px;
+    padding-bottom: 15px;
+}
+.apple_music_logo {
+    display: flex;
+    padding-top: 15px;
+}
+
+.apple {
+    padding-top: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: grey;
+    font-size: 13px;
+}
+
+.apple-logo {
+    height: 25px;
+    padding-left: 2px;
+    padding-bottom: 15px;
+}
+.container-two h1{
+    padding-top: 80px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(177, 179, 177);
+}
+.text{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.container-three{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    padding-left: 100px;
+    padding-top: 10px;
+    left: 200px;
+}
+.box-one-1{
+    padding-right: 20px;
+}
+.box-one-two{
+    border-radius: 5px;
+    width: 450px;
+}
+
+.box-one-two-h6{
+    color: rgb(177, 179, 177);
+   
+}
+.box-one-two-p1{
+    padding: 5px 0px 5px 0px;
+}
+.box-one-two-p2{
+color: rgb(177, 179, 177);;
+}
+.text-one{
+    margin: 0 280px;
+    padding-top: 30px;
+    justify-content: right;
+}
+.text-two{
+    margin: 0 280px;
+    padding-top: 70px;
+    justify-content: right;
+}
+.text-three{
+    margin: 0 280px;
+    padding-top: 50px;
+    justify-content: right;
+}
+.text-four{
+    margin: 0 280px;
+    padding-top: 60px;
+    justify-content: right;
+}
+.text-five{
+    margin: 0 280px;
+    padding-top: 100px;
+    justify-content: right;
+}
+.container-four{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 260px;
+    padding-right: 0px;
+}
+.container-five{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 260px;
+    padding-right: 0px;
+}
+.container-six{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 260px;
+    padding-right: 0px;
+}
+.container-seven{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 260px;
+    padding-right: 0px;
+}
+.container-eight{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 260px;
+    padding-right: 0px;
+}
+.container-nine{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 260px;
+    padding-right: 0px;
+}
+.banner-one img{
+    width: 225px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner-two img{
+    width: 225px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner-three img{
+    width: 225px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner-four img{
+    width: 225px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner-five img{
+    width: 225px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner-six img{
+    width: 225px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner-seven img{
+    width: 225px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner-eight img{
+    width: 225px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.text-p1{
+    font-size: 13px;
+}
+.text-p2{
+    color: rgb(100, 99, 99);
+    font-size: 13px;
+}
+.div-one img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-one img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-two img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-three img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-four img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-five img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-six img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-seven img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-eight img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-nine img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-ten img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-eleven img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-twelve img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-thirteen img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-forteen img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-fifteen img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-sixteen img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-seventeen img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-eighteen img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-nineeteen img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-twenty img:hover{
+    box-shadow: 0px 5px 5px 0px rgb(120, 120, 120);
+}
+.div-one p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-two img {
+    width:180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-two p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-three img { 
+    width:180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-three p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-four img {
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-four p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-five img {
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-five p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-six img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-seven img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-eight img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-nine img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-ten img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-eleven img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-twelve img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-thirteen img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-forteen img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-fifteen img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-sixteen img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+} 
+.div-seventeen img {
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-eighteen img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-nineeteen img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-twenty img{
+    width: 180px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.div-six p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-seven p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-eight p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-nine p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-ten p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-eleven p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-twelve p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-thirteen p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-forteen p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-fifteen p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-sixteen p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-seventeen p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-eighteen p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-nineeteen p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-twenty p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.body{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    row-gap: 50px;
+    left: 0px;
+    padding-left: 200px;
+    column-gap: 30px;
+}
+.body-one{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 10px;
+}
+.body-three{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 10px;
+    right: 100px;
+}
+.body-four{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 10px;
+    right: 1000px;
+}
+.body-four img{
+    width: 30px;
+    border-radius: 7px;
+}
+.body-three img{
+    width: 30px;
+    border-radius: 7px;
+}
+.body-one img{
+    width: 30px;
+    border-radius: 7px;
+}
+.worth{
+    display: flex;
+}
+.quiero{
+    display: flex;
+}
+.name{
+    display: flex;
+}
+.smoking{
+    display: flex;
+}
+.break{
+    margin: 0 10px;
+}
+.body-two{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: ;
+    gap: 10px;
+    padding-left: 0px;
+    white-space: nowrap;
+    padding-right: 0px;
+    margin: 0 0px;
+}
+.body-two img{
+    width: 30px;
+}
+.parentDiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: ;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 275px;
+}
+.parent-one{
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(240, 5, 5);
+    background-color: rgb(232, 232, 232);
+    display: flex;
+}
+.parent-one p{
+    margin: 20px;
+}
+.parent-two{
+    width: 290px;
+    height: 55px;
+    border-radius: 5px;
+    color: rgb(240, 5, 5);
+    background-color: rgb(232, 232, 232);
+}
+.parent-two p{
+    margin: 20px;
+}
+.parent-three{
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(240, 5, 5);
+    background-color: rgb(232, 232, 232);
+}
+.parent-three p{
+    margin: 20px;
+}
+.parent-four{
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(240, 5, 5);
+    background-color: rgb(232, 232, 232);
+}
+.parent-four p{
+    margin: 20px;
+}
+.parent-five{
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(240, 5, 5);
+    background-color: rgb(232, 232, 232);
+}
+.parent-five p{
+    margin: 20px;
+}
+.parent-six{
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(240, 5, 5);
+    background-color: rgb(232, 232, 232);
+}
+.parent-six p{
+    margin: 20px;
+}
+.parent-seven{
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(240, 5, 5);
+    background-color: rgb(232, 232, 232);
+}
+.parent-seven p{
+    margin: 20px;
+}
+.parent-eight{
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+    color: rgb(240, 5, 5);
+    background-color: rgb(232, 232, 232);
+}
+.parent-eight p{
+    margin: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-content: center;
+}
+.grid-item{
+    background-color: rgb(173, 173, 173);
+}
+footer{
+    background-color: whitesmoke;
+}
+.header{
+    margin: 0 300px;
+    padding-top: 15px;
+    justify-content: right;
+}
+.header p{
+    font-size: 10px;
+}
+.list-items{
+    display: flex;
+    justify-content: ;
+    margin: 0 100px;
+    padding-top: 12px;
+    padding-left: 193px;
+    white-space: nowrap;
+}
+.list-items p{
+    font-size: 10px;
+    margin: 0 6px;
+    cursor: pointer;
+    color: rgb(100, 99, 99);
+}
+.list-items p:hover{
+    text-decoration: underline;
+}
+.header-two{
+    margin: 0 300px;
+    padding-top: 20px;
+    justify-content: right;
+}
+.header-two p{
+    font-size: 10px;
+}
+.list-items-two{
+    display: flex;
+    justify-content: ;
+    margin: 0 100px;
+    padding-top: 12px;
+    padding-left: 193px;
+    white-space: nowrap;
+}
+.list-items-two p{
+    font-size: 10px;
+    margin: 0 6px;
+    cursor: pointer;
+    color: ;
+}
+.list-items-two p:hover{
+    text-decoration: underline;
+}
